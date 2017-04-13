@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloWorld.Dziedziczenie
+namespace Fundamenty.Dziedziczenie
 {
     class Pojazd
     {

@@ -45,14 +45,15 @@
     <Compile Include="Car.cs" />
     <Compile Include="Dziedziczenie\Pojazd.cs" />
     <Compile Include="Dziedziczenie\Samochod.cs" />
+    <Compile Include="Poliformizm\Zwierze.cs" />
+    <Compile Include="Poliformizm\IPojazd.cs" />
+    <Compile Include="Poliformizm\IPojazdKolowy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Poliformizm\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
