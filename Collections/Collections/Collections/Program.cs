@@ -186,20 +186,20 @@ namespace Collections
 
                 //Queue:
 
-                Queue<string> myQueue = new Queue<string>();
+                //Queue<string> myQueue = new Queue<string>();
 
 
-                myQueue.Enqueue("Pierwszy element");
-                myQueue.Enqueue("Drugi element");
-                myQueue.Enqueue("Trzeci element");
-                myQueue.Enqueue("Czwarty element");
+                //myQueue.Enqueue("Pierwszy element");
+                //myQueue.Enqueue("Drugi element");
+                //myQueue.Enqueue("Trzeci element");
+                //myQueue.Enqueue("Czwarty element");
 
                 //string queuelement = myQueue.Peek();
 
                 //Console.WriteLine("Peek zwraca: " + queuelement);
 
-                string getFirst = myQueue.Dequeue();
-                string getSecond = myQueue.Dequeue();
+                //string getFirst = myQueue.Dequeue();
+                //string getSecond = myQueue.Dequeue();
 
 
                 //Console.WriteLine("First Element: " + getFirst);
@@ -207,14 +207,14 @@ namespace Collections
 
                 //Console.WriteLine("Rozmiar kolejki to:" + myQueue.Count);
 
-                myQueue.Clear();
+               //myQueue.Clear();
 
-                Console.WriteLine("Rozmiar kolejki to:" + myQueue.Count);
-
-
+                //Console.WriteLine("Rozmiar kolejki to:" + myQueue.Count);
 
 
-                Console.ReadKey();
+
+
+                //Console.ReadKey();
                 #endregion
 
 
