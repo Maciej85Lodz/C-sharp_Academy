@@ -21,16 +21,16 @@ namespace LinqAndLambda
 
 
 
-            //        var cars = new List<Car>
-            //        {
-            //            new Car { Brand = "BMW", COLOR = "Black", Year = 1990 };
-            //            new Car { Brand = "BMW", COLOR = "Red", Year = 1992 };
-            //            new Car { Brand = "Audi", COLOR = "Blue", Year = 1998 };
-            //            new Car { Brand = "Ford", COLOR = "Black", Year = 1990 };
-            //        };
+        //    var cars = new List<Car>
+        //            {
+        //                new Car { Brand = "BMW", COLOR = "Black", Year = 1990 };
+        //    new Car { Brand = "BMW", COLOR = "Red", Year = 1992 };
+        //    new Car { Brand = "Audi", COLOR = "Blue", Year = 1998 };
+        //    new Car { Brand = "Ford", COLOR = "Black", Year = 1990 };
+        
 
-            //var bmws = from car in cars
-            //           where car.Brand == "BMW"
+        //var bmws = from car in cars
+        //           where car.Brand == "BMW"
 
 
             Console.ReadKey();

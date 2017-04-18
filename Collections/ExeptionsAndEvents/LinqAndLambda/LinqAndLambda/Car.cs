@@ -44,7 +44,7 @@ namespace LinqAndLambda
             }
             set
             {
-                if (value != null)
+                if (_year != 0)
                     _year = value;
             }
         }
@@ -53,14 +53,17 @@ namespace LinqAndLambda
         {
             Brand = brand;
             Color = color;
-
         }
+        /// <summary>
+        /// Metoda która wprowadza w ruch auto
+        /// </summary>
         public void Drive()
         {
             Console.WriteLine("Auto jedzie");
             checkOil();
         }
-
+        //TODO: można rozszerzyć tę metodę o dokładne szczegóły dotyczące oleju
+        
         private void checkOil()
         {
             Console.WriteLine("Sprawdzam stan oleju..., OK");
