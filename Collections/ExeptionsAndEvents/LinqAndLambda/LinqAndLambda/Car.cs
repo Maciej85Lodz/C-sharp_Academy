@@ -69,6 +69,9 @@ namespace LinqAndLambda
             Console.WriteLine("Sprawdzam stan oleju..., OK");
         }
 
-
+        public override string ToString()
+        {
+            return "Marka auta to:" + Brand + " kolor auta to:" + Color;
+        }
     }
 }
